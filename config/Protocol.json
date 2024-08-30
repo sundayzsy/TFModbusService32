@@ -1,0 +1,284 @@
+{
+    "ServerAddress": "1",
+	"SignalArray": [
+	{
+        "Key": "ArmUpDownCurPosition",
+        "ParamName": "旋转升降轴当前位置",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "42545"
+    },
+	{
+        "Key": "PipeCurPosition",
+        "ParamName": "压紧轴当前位置",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "42605"
+    },
+	{
+        "Key": "GrabInsideUpDownCurPosition",
+        "ParamName": "内圈夹紧升降轴当前位置",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "42665"
+    }, 
+	{
+        "Key": "GrabOutsideUpDownCurPosition",
+        "ParamName": "外圈夹紧升降轴当前位置",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "42725"
+    },
+	{
+        "Key": "GrabInsideCurPosition",
+        "ParamName": "内圈夹紧轴当前位置",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "42785"
+    },
+	{
+        "Key": "GrabOutsideCurPosition",
+        "ParamName": "外圈夹紧轴当前位置",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "42885"
+    },
+	{
+        "Key": "ArmCurPosition",
+        "ParamName": "旋转轴当前位置",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "42905"
+    },
+	{
+        "Key": "WorkMode",
+        "ParamName": "工作模式",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "40021"
+    },
+	{
+        "Key": "SetStation",
+        "ParamName": "取样工位给定",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "40269"
+    },
+	{
+        "Key": "SampleProcess",
+        "ParamName": "取样流程",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "42459"
+    },
+	{
+        "Key": "InsideNeedleProcess",
+        "ParamName": "取旧针流程",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "42451"
+    },
+	{
+        "Key": "OutsideNeedleProcess",
+        "ParamName": "换新针流程",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "42453"
+    },
+	{
+        "Key": "BakDI0",
+        "ParamName": "BakDI0",
+        "Type": "DI",
+        "Desc": "",
+        "Length": "1",
+        "BitPos": "0",
+        "RegisterAddr": "43001"
+    },
+	{
+        "Key": "BakDI1",
+        "ParamName": "BakDI1",
+        "Type": "DI",
+        "Desc": "",
+        "Length": "1",
+        "BitPos": "1",
+        "RegisterAddr": "43001"
+    },
+	{
+        "Key": "BakDI2",
+        "ParamName": "BakDI2",
+        "Type": "DI",
+        "Desc": "",
+        "Length": "1",
+        "BitPos": "2",
+        "RegisterAddr": "43001"
+    },
+	{
+        "Key": "BakDO0",
+        "ParamName": "BakDO0",
+        "Type": "DO",
+        "Desc": "",
+        "Length": "1",
+        "BitPos": "0",
+        "RegisterAddr": "43011"
+    },
+	{
+        "Key": "BakDO1",
+        "ParamName": "BakDO1",
+        "Type": "DO",
+        "Desc": "",
+        "Length": "1",
+        "BitPos": "1",
+        "RegisterAddr": "43011"
+    },
+	{
+        "Key": "BakDO2",
+        "ParamName": "BakDO2",
+        "Type": "DO",
+        "Desc": "",
+        "Length": "1",
+        "BitPos": "2",
+        "RegisterAddr": "43011"
+    },
+	{
+        "Key": "Bak16AI",
+        "ParamName": "Bak16AI",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "16",
+        "BitPos": "0",
+        "RegisterAddr": "43021"
+    },
+	{
+        "Key": "Bak16AO",
+        "ParamName": "Bak16AO",
+        "Type": "AO",
+        "Desc": "",
+        "Length": "16",
+        "BitPos": "0",
+        "RegisterAddr": "43031"
+    },
+	{
+        "Key": "32AO",
+        "ParamName": "32AO",
+        "Type": "AO",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "43035"
+    },
+	{
+        "Key": "Bak64AI",
+        "ParamName": "Bak64AI",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "64",
+        "BitPos": "0",
+        "RegisterAddr": "43041"
+    },
+	{
+        "Key": "Bak64AO",
+        "ParamName": "Bak64AO",
+        "Type": "AO",
+        "Desc": "",
+        "Length": "64",
+        "BitPos": "0",
+        "RegisterAddr": "43051"
+    },
+	{
+        "Key": "Test1",
+        "ParamName": "Test1",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "43061"
+    },
+	{
+        "Key": "Test2",
+        "ParamName": "Test2",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "43065"
+    },
+	{
+        "Key": "Test3",
+        "ParamName": "Test3",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "43069"
+    },
+	{
+        "Key": "Test4",
+        "ParamName": "Test4",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "43073"
+    },
+	{
+        "Key": "Test5",
+        "ParamName": "Test5",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "43077"
+    },
+	{
+        "Key": "Test6",
+        "ParamName": "Test6",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "43081"
+    },
+	{
+        "Key": "Test7",
+        "ParamName": "Test7",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "43085"
+    },
+	{
+        "Key": "Test8",
+        "ParamName": "Test8",
+        "Type": "AI",
+        "Desc": "",
+        "Length": "32",
+        "BitPos": "0",
+        "RegisterAddr": "43089"
+    }
+	]
+}
